@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.column-1 {
+  padding: 15px;
+  width: 50%;
+  float: left;
+}
+
+.column-2 {
+  width: 50%;
+  float: right;
+}
+
+.imgWhoWeAre {
+  float: left;
+}
+
+.imgAside {
+  padding: 0%10%;
+}
+
+#whoWeAre > p {
+  text-align: center;
+}
+
+#whoWeAre {
+  background-color: #f2f2f2;
+  color: #4e4e4e;
+  min-height: 80vh;
+  width: 100%;
+  padding: 15px;
+}
+
+#whoWeAre h2 {
+  text-align: center;
+  font-size: 5rem;
+  stroke-width: 2px;
+  letter-spacing: 4px;
+  position: relative;
+  color: #4e4e4e;
+  padding: 2% 5% 0% 5%;
+}
+
+#whoWeAre h3 {
+  padding: 2%;
+}
+
+#whoWeAre p {
+  text-align: justify;
+}
+
+#whoWeAre > p {
+  text-align: center;
+  padding: 2% 20% 2% 20%;
+}

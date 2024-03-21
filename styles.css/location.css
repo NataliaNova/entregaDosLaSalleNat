@@ -1,0 +1,42 @@
+#location {
+  min-height: 70vh;
+  width: 100%;
+  background-color: white;
+}
+
+#location h2 {
+  text-align: center;
+  font-size: 5rem;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: transparent;
+  letter-spacing: 4px;
+  position: relative;
+  color: #4e4e4e;
+  padding: 5% 0% 0% 0%;
+}
+
+#location h3 {
+  text-align: center;
+  color: #4e4e4e;
+}
+
+.containerloc {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30%;
+  padding: 3%;
+}
+
+.containerloc h4 {
+  color: #4e4e4e;
+}
+
+.map1 {
+  padding-top: 4%;
+  float: left;
+}
+
+.headOf2 {
+  width: 50%;
+  float: right;
+}

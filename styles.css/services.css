@@ -1,0 +1,78 @@
+#ourServices {
+  min-height: 80vh;
+  width: 100%;
+  background-color: white;
+  margin: 10%;
+}
+
+#ourServices h2 {
+  text-align: center;
+  font-size: 5rem;
+  letter-spacing: 4px;
+  position: relative;
+  color: #4e4e4e;
+  padding: 5% 0% 0% 0%;
+}
+
+/*.ourServicesH2:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 4%;
+  height: 8px;
+  width: 90%;
+  border-radius: 8px;
+  background-color: rgb(235, 237, 239);
+}*/
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 5px;
+}
+
+.service {
+  height: 80px;
+  width: 300px;
+  padding: 30% 10%;
+}
+
+.service i {
+  margin-bottom: 100%;
+  float: left;
+  margin-right: 10px;
+  color: #61468c;
+}
+
+.service h3 {
+  color: #4e4e4e;
+}
+
+.service p {
+  color: #7a7a7a;
+}
+
+.servicesDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service i {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  padding: 1%;
+  font-size: 20px;
+  border: solid #d3d3d3;
+  border-radius: 50%;
+  box-sizing: content-box;
+}
+
+.service i:hover {
+  border-radius: 50%;
+  color: #fff;
+  background-color: #61468c;
+  border: solid #61468c;
+}

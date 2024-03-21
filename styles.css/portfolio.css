@@ -1,0 +1,66 @@
+.containerImg {
+  display: flex;
+  margin: 30px;
+  flex-wrap: wrap;
+}
+
+.imgPortafolio {
+  width: 100%;
+  height: 100%;
+  padding: 1%;
+  object-fit: cover;
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 100%;
+  transition: all 1s;
+  box-sizing: border-box;
+}
+
+.imgPortafolioRot {
+  width: 100%;
+  height: 100%;
+  padding: 1%;
+  object-fit: cover;
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 100%;
+  transition: all 1s;
+  box-sizing: border-box;
+}
+
+.imgPortafolio:hover {
+  transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+}
+
+.imgPortafolioRot:hover {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow: 0px 0px 15px 15px#61468c;
+  -webkit-box-shadow: 0px 0px 15px 15px #61468c;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+
+#portfolio {
+  background-color: #f2f2f2;
+  color: #4e4e4e;
+  min-height: 90vh;
+  width: 100%;
+}
+
+#portfolio h2 {
+  text-align: center;
+  font-size: 5rem;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: transparent;
+  letter-spacing: 4px;
+  position: relative;
+  color: #4e4e4e;
+  padding: 5% 5% 1%;
+}
+
+#portfolio h3 {
+  text-align: center;
+  padding-bottom: 1%;
+}
