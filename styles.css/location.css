@@ -7,8 +7,6 @@
 #location h2 {
   text-align: center;
   font-size: 5rem;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: transparent;
   letter-spacing: 4px;
   position: relative;
   color: #4e4e4e;

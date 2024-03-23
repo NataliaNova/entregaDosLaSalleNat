@@ -3,15 +3,5 @@ footer {
   width: 100%;
   text-align: right;
   color: white;
-
   padding: 10px 20px;
-}
-
-.afooter {
-  color: white;
-}
-
-.afooter:hover {
-  color: #b58ff0;
-  background-color: white;
 }

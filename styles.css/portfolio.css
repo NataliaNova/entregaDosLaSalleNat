@@ -30,16 +30,12 @@
 
 .imgPortafolio:hover {
   transform: rotate(-5deg);
-  -webkit-transform: rotate(-5deg);
 }
 
 .imgPortafolioRot:hover {
   border-radius: 50%;
-  -webkit-border-radius: 50%;
-  box-shadow: 0px 0px 15px 15px#61468c;
-  -webkit-box-shadow: 0px 0px 15px 15px #61468c;
+  box-shadow: 0px 0px 10px 10px#61468c;
   transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
 }
 
 #portfolio {
@@ -52,8 +48,6 @@
 #portfolio h2 {
   text-align: center;
   font-size: 5rem;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: transparent;
   letter-spacing: 4px;
   position: relative;
   color: #4e4e4e;
