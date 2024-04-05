@@ -1,8 +1,10 @@
 #ourServices {
-  min-height: 80vh;
-  width: 100%;
+  min-height: 60vh;
+  width: 90%;
   background-color: white;
-  margin: 10%;
+  margin: 2%;
+  box-sizing: border-box;
+  padding: 3px;
 }
 
 #ourServices h2 {
@@ -12,13 +14,7 @@
   position: relative;
   color: #4e4e4e;
   padding: 5% 0% 0% 0%;
-}
-
-.service i {
-  margin-bottom: 100%;
-  float: left;
-  margin-right: 10px;
-  color: #61468c;
+  margin: 2%;
 }
 
 .service h3 {
@@ -38,6 +34,9 @@
   border: solid #d3d3d3;
   border-radius: 50%;
   box-sizing: content-box;
+  float: left;
+  color: #61468c;
+  margin: 2%;
 }
 
 .service i:hover {
@@ -45,4 +44,19 @@
   color: #fff;
   background-color: #61468c;
   border: solid #61468c;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5%;
+  padding: 1%;
+}
+
+.service {
+  max-width: 33.33%;
+  padding: 10px;
+  text-align: justify;
+  cursor: pointer;
 }

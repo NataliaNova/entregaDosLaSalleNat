@@ -43,6 +43,8 @@
   color: #4e4e4e;
   min-height: 90vh;
   width: 100%;
+  padding: 2%;
+  box-sizing: border-box;
 }
 
 #portfolio h2 {
